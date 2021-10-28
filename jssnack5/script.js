@@ -8,14 +8,18 @@ se è dispari inseriscilo nell’array.
 //se l'utente inserisce un numero dispari lo salvo nella lista vuota
 //se l'utente inserisce un numero pari la lista rimane vuota
 /* const listaVuota =[] */
-const listaVuota =[]
-console.log(listaVuota);
-for (let i = 0; i<6; i++){
-    const numeriIseriti =parseInt(prompt("inserisci un numero"));
-    }if(numeriIseriti %2 == 1){
-        listaVuota.push(numeriIseriti);
-    }else{
+const listaDispari = []
+console.log(listaDispari);
+
+for (let i = 0; i < 6; i++) {
+    const numeriIseriti = parseInt(prompt("inserisci un numero")); {
+        if (numeriIseriti % 2 == 1) {
+            listaDispari.push(numeriIseriti);
+            console.log(listaDispari);
+        }else{
+            null;
+        }
+
+    }
 
 };
-       
-    
