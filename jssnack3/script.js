@@ -7,3 +7,17 @@ Il programma stampa la somma di tutti i numeri inseriti. */
         //1.1.2 conservo i 10 numeri in un array
 //2.esco dal ciclo e sommo i numeri ottenuti
     //stampo un consol log della somma
+    const numeriInseriti = parseInt(prompt("inserisci un numeero"))
+    const ListaNumeri =[numeriInseriti]
+    
+    
+    for ( i = 0;  ListaNumeri.length <= 10; i++) {
+       if (ListaNumeri<=10){
+        const numeriInseriti = parseInt(prompt("inserisci un numeero"))
+       }else{
+        console.log(ListaNumeri);
+       } 
+    };
+   
+
+ 
